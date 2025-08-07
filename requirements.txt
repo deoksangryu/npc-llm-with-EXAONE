@@ -4,6 +4,7 @@ transformers>=4.30.0
 sentence-transformers>=2.2.0
 faiss-cpu>=1.7.0
 bitsandbytes>=0.41.0
+accelerate>=0.20.0
 
 # Data Processing
 numpy>=1.21.0
