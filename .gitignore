@@ -137,8 +137,11 @@ dmypy.json
 *.bin
 *.safetensors
 
-# Large data files
-data/
+# Large data files (JSONL 파일들은 제외)
+data/*.pt
+data/*.pth
+data/*.bin
+data/*.safetensors
 models/
 checkpoints/
 *.pt

@@ -1,0 +1,333 @@
+[
+    {
+        "id": "monster-shabranigdu-fragment",
+        "type": "monster",
+        "name": "샤브라니그두 파편(레조-샤브라니그두)",
+        "classification": "상위 마왕 조각",
+        "description": "레조의 육신을 그릇으로 각성한 루비아이 샤브라니그두의 1/7 파편. 강력한 재생력과 마법 반사 능력을 지녔으며, 붉은 안개로 주변 생명을 마족화시킨다.",
+        "abilities": ["블러디 미스트 생성", "마법 반사", "아스트랄 재생"],
+        "tags": ["마왕", "파편", "보스"],
+        "related": {
+            "events": ["event-rezo-awakening", "event-giga-slave"],
+            "npcs": ["npc-rezo", "npc-lina-inverse"]
+        },
+        "status": "소멸(기가 슬레이브)",
+        "level": 100
+    },
+    {
+        "id": "monster-shabranigdu",
+        "type": "boss-monster",
+        "name": "루비아이 샤브라니그두",
+        "classification": "4대 마왕",
+        "description": "'황혼보다 어두운 자, 피보다 붉은 자'로 불리는 궁극의 마왕. 신족 플레어 드래곤 시피드와 세계를 양분했으나 7조각으로 봉인됐다.",
+        "abilities": ["차원 붕괴", "정신 오염 광역", "무속성 마력 무효화"],
+        "tags": ["마왕", "최종재앙"],
+        "related": {
+            "events": ["event-shabranigdu-seal"],
+            "npcs": ["npc-flare-dragon-ceiphied"]
+        },
+        "status": "봉인",
+        "level": 200
+    },
+    {
+        "id": "monster-darkstar",
+        "type": "boss-monster",
+        "name": "다크스타 듀그라디그두",
+        "classification": "이계 마왕",
+        "description": "다른 평행세계 '검은 세계'의 파괴신. 다섯 성검을 창조했으며, 발가브와 결탁해 적색세계 침공을 시도했다.",
+        "abilities": ["중력 붕괴", "암흑 입자포", "차원 동화"],
+        "tags": ["마왕", "차원", "보스"],
+        "related": {
+            "events": ["event-darkstar-invasion"],
+            "npcs": ["npc-valgarv"]
+        },
+        "status": "소멸",
+        "level": 300
+    },
+    {
+        "id": "monster-zanaffar",
+        "type": "elite-monster",
+        "name": "자나파(ザナッファー)",
+        "classification": "은빛 초마수",
+        "description": "늑대 머리와 촉수를 지닌 4족 실버 비스트. 살아 있는 갑주 형태로 성장하며 마법에 높은 내성을 갖는다.",
+        "abilities": ["레이저 브레스", "촉수 채찍", "마법 무효화"],
+        "tags": ["초마수", "실버", "갑주"],
+        "related": {
+            "events": [],
+            "npcs": ["npc-lina-inverse"]
+        },
+        "status": "파괴",
+        "level": 90
+    },
+    {
+        "id": "monster-lesser-demon",
+        "type": "monster",
+        "name": "레서 데몬",
+        "classification": "하급 마족",
+        "description": "마족 군단의 소모용 포식자. 거의 본능만 남아있어 파괴와 공포 확산에 특화돼 있다.",
+        "abilities": ["통상 물리 공격", "부식성 침", "집단 난동"],
+        "tags": ["마족", "저레벨"],
+        "related": {
+            "events": [],
+            "npcs": []
+        },
+        "status": "현존",
+        "level": 10
+    },
+    {
+        "id": "monster-20250220-01",
+        "type": "monster",
+        "name": "어린 파이어 드레이크",
+        "classification": "드래곤계 아종",
+        "description": "리나 인버스가 드래곤 슬레이브 단축식을 시험할 때 맞붙었던 소형 화염 드레이크. 아직 성장 중이지만 화염 호흡은 성체 못지않다.",
+        "abilities": ["화염 브레스", "날개 돌진"],
+        "tags": ["드래곤", "불", "훈련"],
+        "related": {
+            "events": ["event-02"],
+            "npcs": ["npc-lina-inverse"]
+        },
+        "status": "생존",
+        "level": 30
+    },
+    {
+        "id": "monster-20250310-01",
+        "type": "monster",
+        "name": "마족 스폰",
+        "classification": "중급 마족",
+        "description": "샤브라니그두 파편의 각성으로 생긴 아스트랄 틈에서 솟아난 실체 없는 그림자 마족. 접촉한 생물을 즉시 부패시킨다.",
+        "abilities": ["그림자 베기", "부패 오라"],
+        "tags": ["마족", "스폰"],
+        "related": {
+            "events": ["event-03"],
+            "npcs": []
+        },
+        "status": "현존",
+        "level": 50
+    },
+    {
+        "id": "monster-20250310-02",
+        "type": "monster",
+        "name": "블러드 미스트 피엔드",
+        "classification": "혈안 증기괴",
+        "description": "루비아이 오오라가 응집해 만들어진 붉은 안개 덩어리. 체액을 흡수해 크기를 불린다.",
+        "abilities": ["혈액 흡수", "자기 증식 안개"],
+        "tags": ["마족", "안개"],
+        "related": {
+            "events": ["event-03"],
+            "npcs": []
+        },
+        "status": "활동 중",
+        "level": 40
+    },
+    {
+        "id": "monster-20250320-01",
+        "type": "monster",
+        "name": "흑룡왕 교단 '암흑 순교자'",
+        "classification": "인간형 새크리파이스",
+        "description": "흑룡왕 가브를 숭배하는 사이룬 이단 교단이 인신공양 의식으로 창조한 반(半)마족 생체병기.",
+        "abilities": ["암영 폭발", "자폭 의식"],
+        "tags": ["마족", "교단", "드래곤"],
+        "related": {
+            "events": ["event-05"],
+            "npcs": ["npc-chaos-dragon-gaav"]
+        },
+        "status": "파괴",
+        "level": 60
+    },
+    {
+        "id": "monster-20250401-01",
+        "type": "monster",
+        "name": "아스트랄 나이트",
+        "classification": "마족 기사",
+        "description": "피브리조의 명령으로 등장한 중갑 마족. 아스트랄 실체화 능력으로 물리·마법 방어를 넘나든다.",
+        "abilities": ["차원 질주", "아스트랄 슬래시"],
+        "tags": ["마족", "기사"],
+        "related": {
+            "events": ["event-06"],
+            "npcs": ["npc-hellmaster-fibrizo"]
+        },
+        "status": "소멸",
+        "level": 70
+    },
+    {
+        "id": "monster-20250420-01",
+        "type": "monster",
+        "name": "고대 스카이웨이름",
+        "classification": "비룡(飛龍)",
+        "description": "신룡의 비늘을 품은 천고(天空) 드래곤. 하늘섬 유적을 지키며 번개를 자유롭게 다루는 지적 생명체.",
+        "abilities": ["번개 브레스", "폭풍 소환"],
+        "tags": ["드래곤", "유물", "수호자"],
+        "related": {
+            "events": ["event-08"],
+            "npcs": []
+        },
+        "status": "생존",
+        "level": 20
+    },
+    {
+        "id": "monster-astral-leviathan",
+        "type": "monster",
+        "name": "아스트랄 레비아탄",
+        "classification": "초월 심연수",
+        "description": "결계 붕괴 후 아스트랄계에서 흘러든 거대 심해 괴수. 물리적 실체와 영혼을 동시에 삼켜 파동을 일으킨다.",
+        "abilities": ["심연 포효", "영혼 포식", "아스트랄 잠수"],
+        "tags": ["심연", "결계", "대형"],
+        "related": {
+            "events": ["event-barrier-collapse"],
+            "npcs": []
+        },
+        "status": "현존",
+        "level": 15
+    },
+    {
+        "id": "monster-20250502-01",
+        "type": "monster",
+        "name": "그레비티 슬라임",
+        "classification": "아스트랄 점액 슬라임",
+        "description": "중력 왜곡에 노출된 진흙이 슬라임화한 개체. 닿으면 몸이 무거워져 회피가 어려워진다.",
+        "abilities": ["미니 그레이브 웨이트", "점액 질식"],
+        "tags": ["슬라임", "저레벨"],
+        "related": {
+            "events": [],
+            "npcs": []
+        },
+        "status": "현존",
+        "level": 4
+    },
+    {
+        "id": "monster-20250502-02",
+        "type": "monster",
+        "name": "고블린 패밀리어",
+        "classification": "소형 마족 하수인",
+        "description": "마도사가 소환했다가 관리에 실패해 야생화된 고블린형 파편 마족. 작지만 집단으로 덤비면 위협적이다.",
+        "abilities": ["단검 찌르기", "허술한 연막"],
+        "tags": ["마족", "고블린"],
+        "related": {
+            "events": [],
+            "npcs": []
+        },
+        "status": "현존",
+        "level": 5
+    },
+    {
+        "id": "monster-20250502-03",
+        "type": "monster",
+        "name": "마나 블룸벌",
+        "classification": "마력충 나방 유충",
+        "description": "마나가 살짝 새는 던전 경계에 서식하는 벌레. 유충 단계라 몸이 약하지만, 터트리면 작은 마나 폭발이 일어난다.",
+        "abilities": ["자폭 확산", "기절 분진"],
+        "tags": ["곤충", "폭발"],
+        "related": {
+            "events": [],
+            "npcs": []
+        },
+        "status": "활동 중",
+        "level": 3
+    },
+    {
+        "id": "monster-20250502-04",
+        "type": "monster",
+        "name": "돌껍질 거북",
+        "classification": "소형 방어형 짐승",
+        "description": "등딱지에 광맥이 섞여 단단하지만, 배 쪽이 약해 초보자도 전략적으로 노리면 쓰러뜨릴 수 있다.",
+        "abilities": ["방패 껍질", "몸통 박치기"],
+        "tags": ["짐승", "방어"],
+        "related": {
+            "events": [],
+            "npcs": []
+        },
+        "status": "생존",
+        "level": 6
+    },
+    {
+        "id": "monster-20250502-05",
+        "type": "monster",
+        "name": "루미너스 스프라이트",
+        "classification": "요정계 미소 생명체",
+        "description": "어두운 숲에서 발광하는 작은 요정. 장난으로 전격을 날리지만 치명적이진 않아 경험치용으로 인기.",
+        "abilities": ["섬광", "미약 전격"],
+        "tags": ["요정", "빛"],
+        "related": {
+            "events": [],
+            "npcs": []
+        },
+        "status": "현존",
+        "level": 2
+    },
+    {
+        "id": "monster-20250502-06",
+        "type": "monster",
+        "name": "버그베어 스카우트",
+        "classification": "도적형 야수인",
+        "description": "숲길을 순찰하며 낙오자에게 덤비는 곰형 하급 마족. 척후병급이라 위협적이지만 협공에 약하다.",
+        "abilities": ["매복", "투창 던지기"],
+        "tags": ["야수형", "정찰"],
+        "related": {
+            "events": [],
+            "npcs": []
+        },
+        "status": "활동 중",
+        "level": 8
+    },
+    {
+        "id": "monster-20250502-07",
+        "type": "monster",
+        "name": "백사(白蛇) 링거",
+        "classification": "독사 변종",
+        "description": "맑은 계곡에 사는 작은 흰 뱀. 물리면 약독이 걸리지만 해독초만 있으면 안심할 수 있다.",
+        "abilities": ["독 이빨", "물속 회피"],
+        "tags": ["야수형", "독"],
+        "related": {
+            "events": [],
+            "npcs": []
+        },
+        "status": "현존",
+        "level": 4
+    },
+    {
+        "id": "monster-20250502-08",
+        "type": "monster",
+        "name": "사일런트 미믹(소형)",
+        "classification": "보급형 위장 괴물",
+        "description": "작은 궤짝, 술통으로 변장한다. 방어력이 낮아 초심자도 대응 가능하지만 기습 피해에 유의해야 한다.",
+        "abilities": ["위장 잠복", "물리 난폭"],
+        "tags": ["미믹", "위장"],
+        "related": {
+            "events": [],
+            "npcs": []
+        },
+        "status": "현존",
+        "level": 7
+    },
+    {
+        "id": "monster-20250502-09",
+        "type": "monster",
+        "name": "퓨리파잉 스피릿",
+        "classification": "약령(弱靈)",
+        "description": "옛 사당에 떠도는 정화령. 공격성은 낮지만 마력 회복용 경험치 수급원으로 유명하다.",
+        "abilities": ["정화 광휘", "마나 회복"],
+        "tags": ["정령", "지원"],
+        "related": {
+            "events": [],
+            "npcs": []
+        },
+        "status": "현존",
+        "level": 1
+    },
+    {
+        "id": "monster-20250502-10",
+        "type": "monster",
+        "name": "와일드 파이어팍스",
+        "classification": "작열 여우 수인",
+        "description": "작은 불꽃을 꼬리에서 내뿜는 여우형 야수. 체력이 낮아 단체 사냥에 적합하다.",
+        "abilities": ["불씨 캡슐", "도주 본능"],
+        "tags": ["야수형", "불"],
+        "related": {
+            "events": [],
+            "npcs": []
+        },
+        "status": "생존",
+        "level": 9
+    }
+]
+

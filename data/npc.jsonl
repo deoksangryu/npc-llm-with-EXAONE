@@ -1,0 +1,362 @@
+[
+    {
+        "id": "npc-lina-inverse",
+        "type": "npc",
+        "sex": "female",
+        "name": "리나 인버스",
+        "aliases": ["Lina Inverse", "Destroyer, Bandit-Killer"],
+        "species": "인간(마도사)",
+        "affiliation": "프리랜서 모험가",
+        "first_appearance": "0000-04-01",
+        "description": "천재적 흑·정령·백마법 실력과 괴력급 식욕으로 악명 높은 방랑 소서러. '드래곤 슬레이브'·'기가 슬레이브' 등 초위력 주문의 시전자이며 다수의 세계 위기를 해결했다.",
+        "tags": ["주인공", "마법", "모험"],
+        "related": {
+            "events": ["event-rezo-awakening", "event-giga-slave", "event-darkstar-invasion", "event-fibrizo-destruction"],
+            "npcs": ["npc-gourry-gabriev"],
+            "monsters": []
+        },
+        "status": "생존"
+    },
+    {
+        "id": "npc-gourry-gabriev",
+        "type": "npc",
+        "sex": "male",
+        "name": "가우리 가브리에프",
+        "aliases": ["Gourry Gabriev"],
+        "species": "인간(검객)",
+        "affiliation": "리나 동료",
+        "first_appearance": "0000-04-01",
+        "description": "빛의 검사(라이트-소드)의 소유자로 뛰어난 검술을 지녔지만 단순한 성격. 리나의 자칭 '보디가드'이며 수차례 세계 구원에 협력했다.",
+        "tags": ["검술", "빛의검", "동료"],
+        "related": {
+            "events": ["event-rezo-awakening", "event-darkstar-invasion"],
+            "npcs": ["npc-lina-inverse"],
+            "monsters": []
+        },
+        "status": "생존"
+    },
+    {
+        "id": "npc-rezo",
+        "type": "npc",
+        "sex": "male",
+        "name": "레드 프리스트 레조",
+        "aliases": ["Rezo the Red Priest"],
+        "species": "인간(대현자)",
+        "affiliation": "오성현자 중 한 명",
+        "first_appearance": "0010-04-30",
+        "description": "맹목(先天적 실명)을 치유하려다 루비아이 파편을 부활시킨 비극의 사제. 마족화 후 리나 일행과 충돌했다.",
+        "tags": ["사제", "마족화", "비극"],
+        "related": {
+            "events": ["event-rezo-awakening"],
+            "npcs": ["npc-lina-inverse"],
+            "monsters": ["monster-shabranigdu-fragment"]
+        },
+        "status": "사망"
+    },
+    {
+        "id": "npc-hellmaster-fibrizo",
+        "type": "npc",
+        "sex": "male",
+        "name": "헬마스터 피브리조",
+        "aliases": ["Hellmaster Fibrizo", "Phibrizzo"],
+        "species": "상위 마족",
+        "affiliation": "루비아이 계열 네 마왕",
+        "first_appearance": "-05000-06-01",
+        "description": "외견은 소년이나 실체는 '죽음의 지배자'. 코마전 이후 결계를 유지하며 인류를 장기적으로 유린해 왔다가 로드 오브 나이트메어 강림으로 소멸.",
+        "tags": ["마왕", "결계", "사멸"],
+        "related": {
+            "events": ["event-koma-war", "event-mazoku-barrier", "event-fibrizo-destruction"],
+            "npcs": ["npc-chaos-dragon-gaav"],
+            "monsters": []
+        },
+        "status": "소멸"
+    },
+    {
+        "id": "npc-chaos-dragon-gaav",
+        "type": "npc",
+        "sex": "male",
+        "name": "카오스 드래곤 가브",
+        "aliases": ["Chaos Dragon Gaav", "Garv"],
+        "species": "마족(인간 융합체)",
+        "affiliation": "루비아이 휘하→독자 세력",
+        "first_appearance": "0011-03-01",
+        "description": "인간과 병합되며 자아가 변질돼 마족 상층에 반기를 든 '반역의 마왕'. 드래곤 폼과 인간 폼을 오가며 리나 일행과 격돌했다.",
+        "tags": ["반란", "드래곤", "마왕"],
+        "related": {
+            "events": ["event-gaav-rebellion"],
+            "npcs": ["npc-hellmaster-fibrizo", "npc-valgarv"],
+            "monsters": []
+        },
+        "status": "소멸"
+    },
+    {
+        "id": "npc-valgarv",
+        "type": "npc",
+        "sex": "male",
+        "name": "발가브(발가아브)",
+        "aliases": ["Valgarv", "Valgaav"],
+        "species": "고대드래곤·마족 혼혈",
+        "affiliation": "가브 휘하→다크스타 추종",
+        "first_appearance": "0012-02-10",
+        "description": "고대드래곤 멸족에서 살아남아 가브에게 충성한 복수귀. 다크스타 무기 '라그도 메제기스'로 차원문을 열다 최종전에서 소멸·환생.",
+        "tags": ["혼혈", "복수", "다크스타"],
+        "related": {
+            "events": ["event-darkstar-invasion"],
+            "npcs": ["npc-chaos-dragon-gaav"],
+            "monsters": ["monster-darkstar"]
+        },
+        "status": "환생(알 상태)"
+    },
+    {
+        "id": "npc-aqualord-ragradia",
+        "type": "npc",
+        "sex": "male",
+        "name": "아쿠아로드 라그라디아",
+        "aliases": ["Aqualord Ragradia", "Water Dragon King"],
+        "species": "신족(드래곤 킹)",
+        "affiliation": "북부 수룡신단",
+        "first_appearance": "-04990-01-01",
+        "description": "시피드가 남긴 4대 드래곤 킹 중 북쪽의 수호신. 루비아이 파편을 얼음에 봉인하며 소멸했고, 잔재가 '클레어 바이블'의 핵심이 되었다.",
+        "tags": ["드래곤킹", "봉인", "유물"],
+        "related": {
+            "events": ["event-koma-war", "event-claire-bible"],
+            "npcs": [],
+            "monsters": []
+        },
+        "status": "소멸"
+    },
+    {
+        "id": "npc-flare-dragon-ceiphied",
+        "type": "npc",
+        "sex": "female",
+        "name": "플레어 드래곤 시피드",
+        "aliases": ["Flare Dragon Ceifeed", "Red Dragon God"],
+        "species": "최상위 신족",
+        "affiliation": "신족 수장",
+        "first_appearance": "-05000-01-01",
+        "description": "신·마대전에서 루비아이 샤브라니그두와 격돌, 그를 7분할 봉인한 뒤 '4대 드래곤 킹'을 남기고 해신(혼)으로 침잠.",
+        "tags": ["신", "창세", "봉인"],
+        "related": {
+            "events": ["event-shabranigdu-seal"],
+            "npcs": ["npc-aqualord-ragradia"],
+            "monsters": []
+        },
+        "status": "해체(혼융)"
+    },
+    {
+        "id": "npc-greater-beast-zellas",
+        "type": "npc",
+        "sex": "male",
+        "name": "그레이터 비스트 젤러스 메탈리움",
+        "aliases": ["Zelas Metallium", "Beastmaster"],
+        "species": "마족(수왕)",
+        "affiliation": "루비아이 계열 네 마왕",
+        "first_appearance": "-04999-07-15",
+        "description": "울프팩 아일랜드를 거점으로 하는 '수왕'. 직접 출현은 드물고 사제 제로스를 앞세워 음모를 조율한다.",
+        "tags": ["마왕", "조종자", "은둔"],
+        "related": {
+            "events": ["event-mazoku-barrier"],
+            "npcs": [],
+            "monsters": []
+        },
+        "status": "현존"
+    },
+    {
+        "id": "npc-deep-sea-dolphin",
+        "type": "npc",
+        "sex": "male",
+        "name": "딥 시 돌핀",
+        "aliases": ["Deep Sea Dolphin", "Sea King"],
+        "species": "마족(해왕)",
+        "affiliation": "루비아이 계열 네 마왕",
+        "first_appearance": "-04999-07-15",
+        "description": "'해왕'이라 불리는 마왕. 본체와 짐승형이 미확인 상태이며, 대리인을 통해 결계 조성과 인간사회 교란을 꾀한다.",
+        "tags": ["마왕", "해왕", "미지"],
+        "related": {
+            "events": ["event-mazoku-barrier"],
+            "npcs": [],
+            "monsters": []
+        },
+        "status": "현존"
+    },
+    {
+        "id": "npc-dynast-grausherra",
+        "type": "npc",
+        "sex": "female",
+        "name": "다이너스트 그라우셰라",
+        "aliases": ["Dynast Grausherra", "Supreme King"],
+        "species": "마족(북왕)",
+        "affiliation": "루비아이 계열 네 마왕",
+        "first_appearance": "-04999-07-15",
+        "description": "극북 노스폴을 본거지로 하는 '빙설의 마왕'. 인간 전쟁을 조종해 2차 코마전을 노렸으나 리나 일행과 성룡 연합의 저지로 좌절.",
+        "tags": ["마왕", "빙설", "책략"],
+        "related": {
+            "events": ["event-mazoku-barrier"],
+            "npcs": [],
+            "monsters": []
+        },
+        "status": "현존(본체 은거)"
+    },
+    {
+        "id": "npc-lord-of-nightmares",
+        "type": "npc",
+        "sex": "female",
+        "name": "로드 오브 나이트메어",
+        "aliases": ["L-sama", "Golden Demon Lord"],
+        "species": "혼돈(Sea of Chaos)",
+        "affiliation": "초월적 독립체",
+        "first_appearance": "태초",
+        "description": "4개 평행세계와 신·마 모두를 품은 '혼돈의 바다' 그 자체. 인간 매개체(리나)를 통해 가끔 의지를 드러내며, 기가 슬레이브·라그나 블레이드의 근원.",
+        "tags": ["창조신", "혼돈", "초월"],
+        "related": {
+            "events": ["event-giga-slave", "event-fibrizo-destruction"],
+            "npcs": ["npc-lina-inverse"],
+            "monsters": []
+        },
+        "status": "존재"
+    },
+    {
+        "id": "npc-zephilia-elder-rodus",
+        "type": "npc",
+        "sex": "male",
+        "name": "로드스 할아버지",
+        "aliases": ["Elder Rodus", "Zephilia Village Elder"],
+        "species": "인간(마을 촌장)",
+        "affiliation": "제필리아 촌회",
+        "first_appearance": "0025-05-02",
+        "description": "리나의 고향 제필리아를 지키는 노령 촌장. 사냥꾼이 줄어들어 늘어난 슬라임·고블린 문제로 초보 모험가를 모집한다.",
+        "tags": ["촌장", "초보퀘스트", "슬라임퇴치"],
+        "related": {
+            "events": ["event-zephilia-slime-outbreak"],
+            "npcs": ["npc-lina-inverse"],
+            "monsters": ["monster-20250502-01", "monster-20250502-02"]
+        },
+        "status": "생존"
+    },
+    {
+        "id": "npc-sorcerers-guild-recep-milly",
+        "type": "npc",
+        "sex": "female",
+        "name": "길드 리셉셔니스트 밀리",
+        "aliases": ["Milly", "Guild Clerk"],
+        "species": "인간(마도사)",
+        "affiliation": "세일룬 소서러 길드",
+        "first_appearance": "0025-05-02",
+        "description": "세일룬 지부의 견습 마도사이자 접수 담당. 신규 길드원에게 허드렛일·채집 의뢰서를 배분한다.",
+        "tags": ["길드", "채집퀘스트", "지원"],
+        "related": {
+            "events": ["event-mana-herb-collection"],
+            "npcs": [],
+            "monsters": ["monster-20250502-03"]
+        },
+        "status": "생존"
+    },
+    {
+        "id": "npc-sword-trainer-bran",
+        "type": "npc",
+        "sex": "male",
+        "name": "검술 교관 브란",
+        "aliases": ["Bran the Blade", "Novice Trainer"],
+        "species": "인간(전사)",
+        "affiliation": "트라제브 용병단",
+        "first_appearance": "0024-11-12",
+        "description": "한때 기사단이었던 중년 검객. 초심자에게 기본 검술을 가르치며 고블린 토벌 임무를 인계한다.",
+        "tags": ["검술", "훈련", "고블린토벌"],
+        "related": {
+            "events": ["event-goblin-camp"],
+            "npcs": [],
+            "monsters": ["monster-20250502-02"]
+        },
+        "status": "생존"
+    },
+    {
+        "id": "npc-travel-merchant-martik",
+        "type": "npc",
+        "sex": "male",
+        "name": "떠돌이 상인 마르틱",
+        "aliases": ["Martik the Wanderer"],
+        "species": "인간(상인)",
+        "affiliation": "자유 무역조합",
+        "first_appearance": "0023-03-05",
+        "description": "이동 상단과 함께 대륙 곳곳을 누비며 희귀 재료를 사고파는 중개상. 저레벨 모험가에게 배달·호위 퀘스트를 준다.",
+        "tags": ["상인", "배달퀘스트", "호위"],
+        "related": {
+            "events": ["event-caravan-escort"],
+            "npcs": [],
+            "monsters": ["monster-20250502-08", "monster-20250502-07"]
+        },
+        "status": "생존"
+    },
+    {
+        "id": "npc-temple-acolyte-lerie",
+        "type": "npc",
+        "sex": "female",
+        "name": "견습 사제 레리",
+        "aliases": ["Lerie the Acolyte"],
+        "species": "인간(사제)",
+        "affiliation": "아쿠아로드 사원",
+        "first_appearance": "0025-02-28",
+        "description": "정화 의식 실습 중에 성역 주변에 나타난 약령(弱靈) 퇴치를 의뢰한다. 마법 초심자를 우대.",
+        "tags": ["사제", "정화", "초보"],
+        "related": {
+            "events": ["event-purifying-ritual"],
+            "npcs": ["npc-aqualord-ragradia"],
+            "monsters": ["monster-20250502-09"]
+        },
+        "status": "생존"
+    },
+    {
+        "id": "npc-blacksmith-apprentice-lucas",
+        "type": "npc",
+        "sex": "male",
+        "name": "대장장이 견습 루카스",
+        "aliases": ["Lucas the Hammer"],
+        "species": "인간(장인)",
+        "affiliation": "시온 광산 조합",
+        "first_appearance": "0024-07-19",
+        "description": "은광 보급 임무 담당. 광산 입구에 둥지 튼 돌껍질 거북에게 골머리를 앓고 있다.",
+        "tags": ["장인", "채광", "거북퇴치"],
+        "related": {
+            "events": ["event-sion-mine-ore"],
+            "npcs": [],
+            "monsters": ["monster-20250502-04"]
+        },
+        "status": "생존"
+    },
+    {
+        "id": "npc-forest-guard-elwyn",
+        "type": "npc",
+        "sex": "male",
+        "name": "숲 경비병 엘윈",
+        "aliases": ["Elwyn the Scout"],
+        "species": "엘프(하프)",
+        "affiliation": "엘프 감시단",
+        "first_appearance": "0024-09-03",
+        "description": "국경 숲을 순찰하며 밀렵꾼·버그베어를 단속한다. 초보 궁수에게 기습 매복 대처 퀘스트를 준다.",
+        "tags": ["정찰", "엘프", "매복"],
+        "related": {
+            "events": ["event-border-forest-patrol"],
+            "npcs": [],
+            "monsters": ["monster-20250502-06"]
+        },
+        "status": "생존"
+    },
+    {
+        "id": "npc-innkeeper-myra",
+        "type": "npc",
+        "sex": "female",
+        "name": "여관주인 마이라",
+        "aliases": ["Myra of Saillune Inn"],
+        "species": "인간(서비스업)",
+        "affiliation": "세일룬 모험가 여관",
+        "first_appearance": "0023-10-21",
+        "description": "여관에 묵던 손님의 짐이 사일런트 미믹에게 도난당해 곤란한 상황. 수색 의뢰를 게시했다.",
+        "tags": ["여관", "탐색퀘스트", "미믹"],
+        "related": {
+            "events": ["event-innkeeper-lost-luggage"],
+            "npcs": [],
+            "monsters": ["monster-20250502-08"]
+        },
+        "status": "생존"
+    }
+]

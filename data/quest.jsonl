@@ -1,0 +1,313 @@
+[
+    {
+        "id": "quest-rezo-awakening",
+        "type": "quest",
+        "title": "레조의 각성",
+        "description": "레드 프리스트 레조가 루비아이 파편을 부활시키는 사건. 리나 일행이 이를 저지하려 시도한다.",
+        "difficulty": "어려움",
+        "rewards": {
+            "exp": 1000,
+            "gold": 500,
+            "items": ["ruby-eye-fragment"]
+        },
+        "prerequisites": ["npc-lina-inverse", "npc-gourry-gabriev"],
+        "related_npcs": ["npc-rezo", "npc-lina-inverse", "npc-gourry-gabriev"],
+        "related_monsters": ["monster-shabranigdu-fragment"],
+        "location": "세이룬 왕국",
+        "time_limit": "없음",
+        "status": "완료"
+    },
+    {
+        "id": "quest-giga-slave",
+        "type": "quest",
+        "title": "기가 슬레이브",
+        "description": "로드 오브 나이트메어의 힘을 빌린 초위력 주문 시전. 리나가 시전한 이 주문은 세계의 균형을 위협한다.",
+        "difficulty": "매우 어려움",
+        "rewards": {
+            "exp": 2000,
+            "gold": 1000,
+            "items": ["giga-slave-scroll"]
+        },
+        "prerequisites": ["npc-lina-inverse", "quest-rezo-awakening"],
+        "related_npcs": ["npc-lina-inverse", "npc-lord-of-nightmares"],
+        "related_monsters": [],
+        "location": "차원의 틈",
+        "time_limit": "없음",
+        "status": "완료"
+    },
+    {
+        "id": "quest-darkstar-invasion",
+        "type": "quest",
+        "title": "다크스타 침공",
+        "description": "발가브가 다크스타의 힘을 빌려 차원문을 열어 세계를 위협하는 사건. 리나 일행이 이를 저지한다.",
+        "difficulty": "매우 어려움",
+        "rewards": {
+            "exp": 2500,
+            "gold": 1500,
+            "items": ["darkstar-core"]
+        },
+        "prerequisites": ["npc-lina-inverse", "npc-valgarv"],
+        "related_npcs": ["npc-lina-inverse", "npc-valgarv", "npc-gourry-gabriev"],
+        "related_monsters": ["monster-darkstar"],
+        "location": "차원의 틈",
+        "time_limit": "없음",
+        "status": "완료"
+    },
+    {
+        "id": "quest-fibrizo-destruction",
+        "type": "quest",
+        "title": "피브리조 소멸",
+        "description": "헬마스터 피브리조가 로드 오브 나이트메어의 힘에 의해 소멸되는 사건. 세계의 균형이 회복된다.",
+        "difficulty": "매우 어려움",
+        "rewards": {
+            "exp": 3000,
+            "gold": 2000,
+            "items": ["chaos-orb"]
+        },
+        "prerequisites": ["npc-lina-inverse", "quest-giga-slave"],
+        "related_npcs": ["npc-lina-inverse", "npc-hellmaster-fibrizo", "npc-lord-of-nightmares"],
+        "related_monsters": [],
+        "location": "마계",
+        "time_limit": "없음",
+        "status": "완료"
+    },
+    {
+        "id": "quest-koma-war",
+        "type": "quest",
+        "title": "코마전",
+        "description": "신과 마족의 대전쟁. 시피드와 샤브라니그두의 격돌로 인해 세계가 재편된다.",
+        "difficulty": "불가능",
+        "rewards": {
+            "exp": 5000,
+            "gold": 3000,
+            "items": ["dragon-king-seal"]
+        },
+        "prerequisites": [],
+        "related_npcs": ["npc-flare-dragon-ceiphied", "npc-aqualord-ragradia"],
+        "related_monsters": ["monster-shabranigdu"],
+        "location": "전차원",
+        "time_limit": "없음",
+        "status": "완료"
+    },
+    {
+        "id": "quest-mazoku-barrier",
+        "type": "quest",
+        "title": "마족 결계",
+        "description": "네 마왕이 세운 결계로 인해 세계가 위협받는 사건. 인간사회에 혼란이 발생한다.",
+        "difficulty": "어려움",
+        "rewards": {
+            "exp": 1500,
+            "gold": 800,
+            "items": ["barrier-key"]
+        },
+        "prerequisites": ["npc-hellmaster-fibrizo"],
+        "related_npcs": [
+            "npc-hellmaster-fibrizo",
+            "npc-greater-beast-zellas",
+            "npc-deep-sea-dolphin",
+            "npc-dynast-grausherra"
+        ],
+        "related_monsters": [],
+        "location": "전세계",
+        "time_limit": "없음",
+        "status": "완료"
+    },
+    {
+        "id": "quest-gaav-rebellion",
+        "type": "quest",
+        "title": "가브의 반란",
+        "description": "카오스 드래곤 가브가 마족 상층에 반기를 들고 독자 세력을 형성하는 사건.",
+        "difficulty": "어려움",
+        "rewards": {
+            "exp": 1800,
+            "gold": 1000,
+            "items": ["chaos-dragon-scale"]
+        },
+        "prerequisites": ["npc-chaos-dragon-gaav"],
+        "related_npcs": ["npc-chaos-dragon-gaav", "npc-hellmaster-fibrizo"],
+        "related_monsters": [],
+        "location": "마계",
+        "time_limit": "없음",
+        "status": "완료"
+    },
+    {
+        "id": "quest-shabranigdu-seal",
+        "type": "quest",
+        "title": "샤브라니그두 봉인",
+        "description": "시피드가 샤브라니그두를 7분할로 봉인하고 4대 드래곤 킹을 남기는 사건.",
+        "difficulty": "불가능",
+        "rewards": {
+            "exp": 4000,
+            "gold": 2500,
+            "items": ["dragon-god-seal"]
+        },
+        "prerequisites": [],
+        "related_npcs": ["npc-flare-dragon-ceiphied"],
+        "related_monsters": ["monster-shabranigdu"],
+        "location": "전차원",
+        "time_limit": "없음",
+        "status": "완료"
+    },
+    {
+        "id": "quest-claire-bible",
+        "type": "quest",
+        "title": "클레어 바이블",
+        "description": "아쿠아로드 라그라디아의 잔재가 '클레어 바이블'의 핵심이 되는 사건.",
+        "difficulty": "보통",
+        "rewards": {
+            "exp": 800,
+            "gold": 400,
+            "items": ["claire-bible-fragment"]
+        },
+        "prerequisites": ["npc-aqualord-ragradia"],
+        "related_npcs": ["npc-aqualord-ragradia"],
+        "related_monsters": [],
+        "location": "북부 수룡신단",
+        "time_limit": "없음",
+        "status": "완료"
+    },
+    {
+        "id": "quest-zephilia-slime-cleanup",
+        "type": "quest",
+        "title": "제필리아 슬라임 구제",
+        "description": "제필리아 촌장 로드스가 의뢰한 슬라임·고블린 퇴치 임무. 농로를 뒤덮은 점액을 제거하고 안전을 확보한다.",
+        "difficulty": "쉬움",
+        "rewards": {
+            "exp": 120,
+            "gold": 60,
+            "items": ["slime-gel", "goblin-dagger"]
+        },
+        "prerequisites": ["npc-zephilia-elder-rodus"],
+        "related_npcs": ["npc-zephilia-elder-rodus"],
+        "related_monsters": ["monster-20250502-01", "monster-20250502-02"],
+        "location": "제필리아 마을 외곽",
+        "time_limit": "없음",
+        "status": "진행 가능"
+    },
+    {
+        "id": "quest-mana-herb-collection",
+        "type": "quest",
+        "title": "마나 허브 채집 실습",
+        "description": "세일룬 길드 접수원 밀리가 요청한 연습 의뢰. 마나 블룸벌 유충을 포획하거나 허브를 안전히 채집해 온다.",
+        "difficulty": "쉬움",
+        "rewards": {
+            "exp": 90,
+            "gold": 45,
+            "items": ["mana-herb-bundle"]
+        },
+        "prerequisites": ["npc-sorcerers-guild-recep-milly"],
+        "related_npcs": ["npc-sorcerers-guild-recep-milly"],
+        "related_monsters": ["monster-20250502-03"],
+        "location": "세일룬 교외 초원",
+        "time_limit": "없음",
+        "status": "진행 가능"
+    },
+    {
+        "id": "quest-goblin-camp-sweep",
+        "type": "quest",
+        "title": "고블린 야영지 소탕",
+        "description": "검술 교관 브란이 제안한 실전 훈련. 근처 폐허에 둥지 튼 고블린 패밀리어를 소탕하라.",
+        "difficulty": "보통",
+        "rewards": {
+            "exp": 160,
+            "gold": 80,
+            "items": ["goblin-ear-token"]
+        },
+        "prerequisites": ["npc-sword-trainer-bran"],
+        "related_npcs": ["npc-sword-trainer-bran"],
+        "related_monsters": ["monster-20250502-02"],
+        "location": "트라제브 평원 폐허",
+        "time_limit": "없음",
+        "status": "진행 가능"
+    },
+    {
+        "id": "quest-sion-mine-shell-cracker",
+        "type": "quest",
+        "title": "광산 입구 돌껍질 제거",
+        "description": "시온 광산의 출입로를 막아 버린 돌껍질 거북을 퇴치해, 광부들의 채광 작업을 도우라.",
+        "difficulty": "보통",
+        "rewards": {
+            "exp": 150,
+            "gold": 75,
+            "items": ["turtle-shell-fragment"]
+        },
+        "prerequisites": ["npc-blacksmith-apprentice-lucas"],
+        "related_npcs": ["npc-blacksmith-apprentice-lucas"],
+        "related_monsters": ["monster-20250502-04"],
+        "location": "시온 은광 입구",
+        "time_limit": "없음",
+        "status": "진행 가능"
+    },
+    {
+        "id": "quest-border-forest-patrol",
+        "type": "quest",
+        "title": "국경 숲 초계 지원",
+        "description": "엘윈 경비병과 함께 국경 숲을 순찰하여 매복 중인 버그베어 스카우트와 독사 링거를 제압한다.",
+        "difficulty": "보통",
+        "rewards": {
+            "exp": 180,
+            "gold": 90,
+            "items": ["bugbear-hide", "white-serpent-fang"]
+        },
+        "prerequisites": ["npc-forest-guard-elwyn"],
+        "related_npcs": ["npc-forest-guard-elwyn"],
+        "related_monsters": ["monster-20250502-06", "monster-20250502-07"],
+        "location": "국경 숲 지대",
+        "time_limit": "없음",
+        "status": "진행 가능"
+    },
+    {
+        "id": "quest-caravan-escort",
+        "type": "quest",
+        "title": "마르틱 상단 호위",
+        "description": "떠돌이 상인 마르틱의 화물 마차를 호위하여 세일룬까지 안전히 인도하라. 기습 미믹과 야수의 습격에 대비할 것.",
+        "difficulty": "보통",
+        "rewards": {
+            "exp": 200,
+            "gold": 120,
+            "items": ["merchant-seal-token"]
+        },
+        "prerequisites": ["npc-travel-merchant-martik"],
+        "related_npcs": ["npc-travel-merchant-martik"],
+        "related_monsters": ["monster-20250502-08", "monster-20250502-10"],
+        "location": "세일룬 가도",
+        "time_limit": "없음",
+        "status": "진행 가능"
+    },
+    {
+        "id": "quest-innkeeper-lost-luggage",
+        "type": "quest",
+        "title": "여관 분실 짐 회수",
+        "description": "세일룬 여관주인 마이라의 의뢰. 미믹에게 빼앗긴 여행객의 화물 상자를 찾아 되돌려 주어라.",
+        "difficulty": "쉬움",
+        "rewards": {
+            "exp": 110,
+            "gold": 55,
+            "items": ["recovered-travel-chest"]
+        },
+        "prerequisites": ["npc-innkeeper-myra"],
+        "related_npcs": ["npc-innkeeper-myra"],
+        "related_monsters": ["monster-20250502-08"],
+        "location": "세일룬 부둣가 창고",
+        "time_limit": "없음",
+        "status": "진행 가능"
+    },
+    {
+        "id": "quest-purifying-ritual",
+        "type": "quest",
+        "title": "정화 의식 지원",
+        "description": "견습 사제 레리가 주관하는 소규모 정화 의식을 호위하고, 나타나는 퓨리파잉 스피릿을 진정시켜라.",
+        "difficulty": "쉬움",
+        "rewards": {
+            "exp": 95,
+            "gold": 50,
+            "items": ["purified-crystal"]
+        },
+        "prerequisites": ["npc-temple-acolyte-lerie"],
+        "related_npcs": ["npc-temple-acolyte-lerie"],
+        "related_monsters": ["monster-20250502-09"],
+        "location": "아쿠아 신전 외곽",
+        "time_limit": "없음",
+        "status": "진행 가능"
+    }
+]
